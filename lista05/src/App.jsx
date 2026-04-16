@@ -1,16 +1,18 @@
-import Header from "./components/Header.jsx"; //
-import AcessoInfo from "./components/AcessoInfo.jsx"; //
+import Header from "./components/Header.jsx";
+import AcessoInfo from "./components/AcessoInfo.jsx";
+import GridInfo from "./components/GridInfo.jsx";
+import Gridcolo from "./components/Gridcolo.jsx";
 
 function App() {
   return (
     <>
       <Header />
-      {/* Chamando o componente 3 vezes aqui, se desejar a repetição */}
       <AcessoInfo />
-      <AcessoInfo />
-      <AcessoInfo />
+      {/* Adição dos componentes de grelha que faltavam */}
+      <GridInfo />
+      <Gridcolo />
     </>
   );
 }
 
-export default App; //
+export default App;
