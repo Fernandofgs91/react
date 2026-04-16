@@ -1,11 +1,11 @@
-import "../styles/header.css";
+import "../styles/header.css"; //
 
-export default function Header() {
+export default function Header() { //
   return (
     <header className="header">
-    <span>
-                <h1>Página do Primeiro React</h1>
-            </span>
+      <span>
+        <h1>Página do Primeiro React</h1>
+      </span>
     </header>
   );
 }
