@@ -1,6 +1,6 @@
-import "../styles/acesso.css";
+import "../styles/acesso.css"; //
 
-export default function AcessoInfo() {
+export default function AcessoInfo() { //
   return (
     <section className="acesso-info">
       <div className="container">
